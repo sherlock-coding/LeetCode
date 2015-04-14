@@ -53,7 +53,7 @@ int ladderLength(string beginWord, string endWord, unordered_set<string>& wordDi
             }
         }
     }
-    
+    // 无法转换到最终的单词    
     return 0;
 }
 
