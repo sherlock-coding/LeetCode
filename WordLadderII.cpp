@@ -56,13 +56,10 @@ vector<vector<string>> findLadders(string start, string end, unordered_set<strin
                     seq.push_back(end);
                     seq.push_back(word);
                     string tmpstr = word;
-                    while(prev.find(tmpstr)!=prev.end())
+                    while(tmpstr != start)
                     {
-                        seq.push_back(prev[word]);
-                        if (prev[word] == start)
-                            break;
-                        else
-                            tmpstr = prev[word];
+                        seq.push_back(prev[tmpstr]);
+                        tmpstr = prev[tmpstr];
                     }
                     reverse(seq.begin(),seq.end());
                     allseq.push_back(seq);
