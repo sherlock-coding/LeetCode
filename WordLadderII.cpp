@@ -22,15 +22,40 @@
 #include <unordered_map>
 #include <queue>
 #include <algorithm>
+#include <stack>
 
 using namespace std;
+
+void DFS(string begin, string end, unordered_map<string, unordered_set<string>> &prev, vector<vector<string>> &allseq, vector<string> &seq)
+{
+    if (begin == end)
+    {
+        seq.push_back(end);
+        vector<string> tmp(seq.size());
+        copy(seq.begin(), seq.end(),tmp.begin());
+        reverse(tmp.begin(), tmp.end());
+        allseq.push_back(tmp);
+        seq.pop_back();
+        return ;
+    }
+
+    seq.push_back(begin);
+    for (auto& word:prev[begin])
+        DFS(word,end,prev,allseq,seq);
+    seq.pop_back();
+
+}
 
 vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict)
 {
     vector<vector<string> > allseq;
-    unordered_map<string, string> prev; // 每个单词的前驱结点
+    unordered_map<string, unordered_set<string>> prev; // 每个单词的前驱结点
+    unordered_map<string, int> steps;
     queue<string> q; 
     q.push(start);
+    unordered_set<string> first;
+    prev.insert(make_pair(start,first));
+    steps.insert(make_pair(start, 1));
 
     if (start == end)
     {
@@ -50,43 +75,46 @@ vector<vector<string>> findLadders(string start, string end, unordered_set<strin
             {
                 string newword = word;
                 newword[i] = c;
-                if (newword == end)
+                if (newword == word)
+                    continue;
+                if (dict.find(newword) != dict.end() || newword == end )
                 {
-                    vector<string> seq;
-                    seq.push_back(end);
-                    seq.push_back(word);
-                    string tmpstr = word;
-                    while(tmpstr != start)
+                    if ( steps.find(newword) == steps.end())
                     {
-                        seq.push_back(prev[tmpstr]);
-                        tmpstr = prev[tmpstr];
+                        q.push(newword);
+                        steps.insert(make_pair(newword, steps[word]+1));
+                        unordered_set<string> newset;
+                        newset.insert(word);
+                        prev.insert(make_pair(newword, newset));
                     }
-                    reverse(seq.begin(),seq.end());
-                    allseq.push_back(seq);
-                    break;
-                }
-                if (dict.find(newword) != dict.end() && prev.find(newword) == prev.end())
-                {
-                   // cout << newword << endl;
-                    q.push(newword);
-                    prev.insert(make_pair(newword,word));
+                    else 
+                    {
+                        if (steps[word]+1 == steps[newword])
+                        {
+                            prev[newword].insert(word);
+                        }
+                    }
                 }
             }
         }
     }
+
+    // 保存序列
+    vector<string> seq;
+    DFS(end, start, prev, allseq, seq);
 
     return allseq;
 }
 
 int main()
 {
-    string start = "hit";
-    string end = "cog";
-    unordered_set<string> dict = { "hot", "dot", "dog", "lot", "log"};
+    string start = "red";
+    string end = "tax";
+    unordered_set<string> dict = { "ted", "tex", "red", "tax", "tad", "den", "rex","pee"};
 
     vector<vector<string>> allseq = findLadders(start,end,dict);
 
-    for (int i = 0; i < allseq.size(); ++i)
+      for (int i = 0; i < allseq.size(); ++i)
     {
         for (int j = 0; j < allseq[i].size(); ++j)
             cout << allseq[i][j] << " ";
