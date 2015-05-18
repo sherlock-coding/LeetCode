@@ -10,3 +10,8 @@
 利用BFS
 注意存放每个单词的前驱
 利用前驱输出整个单词序列
+
+2015.5.18
+144 Binary6 Tree Preorder Traversal
+二叉树前序遍历
+DFS
