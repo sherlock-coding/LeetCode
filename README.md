@@ -12,6 +12,11 @@
 利用前驱输出整个单词序列
 
 2015.5.18
-144 Binary6 Tree Preorder Traversal
+144 Binary Tree Preorder Traversal
 二叉树前序遍历
+DFS
+
+2015.5.18
+94 Binary Tree Inorder Traversal
+二叉树中序遍历
 DFS
