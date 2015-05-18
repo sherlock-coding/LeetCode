@@ -57,7 +57,8 @@ vector<int> preorderTraversalIteratively(TreeNode *root)
 {
     vector<int> answer;
     stack<TreeNode *> s;
-    s.push(root);
+    if (root)
+        s.push(root);
     while(!s.empty())
     {
         TreeNode *now = s.top();
