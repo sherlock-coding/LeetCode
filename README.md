@@ -35,3 +35,7 @@ DFS
 51 N-Queens
 n皇后问题，获取解的具体图形分布
 DFS
+
+2015.5.21
+64 Minimum Path Sum
+动态规划
