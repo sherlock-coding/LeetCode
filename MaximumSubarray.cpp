@@ -68,7 +68,7 @@ int maxSubArray1(vector<int> &nums)
     int mid = n >> 1;
     vector<int> lnum(nums.begin(), nums.begin()+mid);
     vector<int> rnum(nums.begin()+mid, nums.end());
-    int answer = max(maxSubArray1(lnum), maxSubArray(rnum));
+    int answer = max(maxSubArray1(lnum), maxSubArray1(rnum));
 
     int sum = nums[mid-1];
     int maxSum = sum;
@@ -105,7 +105,7 @@ int maxSubArray3(vector<int> &nums)
     int answer = nums[0];
     int endhere = nums[0];
 
-    for (int i = 0; i < n; ++i)
+    for (int i = 1; i < n; ++i)
     {
         endhere = max(nums[i], endhere+nums[i]);
         answer = max(endhere, answer);
@@ -118,7 +118,7 @@ int maxSubArray3(vector<int> &nums)
 int maxSubArray4(vector<int> &nums)
 {
     int n = nums.size();
-    int minSum = nums[0];
+    int minSum = min(0,nums[0]);
     int maxSum = nums[0];
     int sum = nums[0];
     for (int i = 1; i < n; ++i)
