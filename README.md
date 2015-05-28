@@ -67,3 +67,9 @@ DFS
 139 Word Break
 单词划分
 动态规划
+
+2015.5.28
+152 Maximum Product Subarray
+最大子数组乘积
+动态规划
+注意与最大字数组和的比较，需要保存正最大和负最小
