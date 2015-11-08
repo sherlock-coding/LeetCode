@@ -78,3 +78,8 @@ DFS
 14 Longest Common Prefix 
 最长相同前缀
 注意比较每一个字符，每个字符串字符与上个字符串的字符比较，如果不相同就结束。
+
+2015.11.8
+19 Remove Nth Node From End of List
+移除链表中倒数第n个节点
+设置相距n的两个节点指针，同时进行移动。
