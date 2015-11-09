@@ -83,3 +83,8 @@ DFS
 19 Remove Nth Node From End of List
 移除链表中倒数第n个节点
 设置相距n的两个节点指针，同时进行移动。
+
+2015.11.8
+20 Valid Parentheses
+判断括号是否匹配
+利用栈进行比对
