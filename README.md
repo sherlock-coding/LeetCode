@@ -112,3 +112,8 @@ DFS
 36 Valid Sudoku
 判断数独是否有效
 设置三个数组,rows[i][j], cols[i][j],block[i][j],分别表示对应的行，列，区块i+1是否存在j+1这个数。 
+
+2015.11.12
+38 Count and Say
+获取count-and-say序列的第n个数
+关键是从前一个字符串获得下一个字符串
