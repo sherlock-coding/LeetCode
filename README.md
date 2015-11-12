@@ -117,3 +117,8 @@ DFS
 38 Count and Say
 获取count-and-say序列的第n个数
 关键是从前一个字符串获得下一个字符串
+
+2015.11.12
+58 Length of Last Word
+字符串中最后一个单词的长度
+直接搜索
