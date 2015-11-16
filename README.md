@@ -142,3 +142,8 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 83 Remove Duplicates from Sorted List
 从有序链表中删除重复元素
 设置两个指针。
+
+2015.11.16
+88 Merge Sorted Array
+合并两个有序的数组。
+注意，分配额外空间或不分配的区别。
