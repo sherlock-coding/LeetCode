@@ -137,3 +137,8 @@ DFS
 70 Climbing Stairs
 爬楼梯问题
 dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
+
+2015.11.16
+83 Remove Duplicates from Sorted List
+从有序链表中删除重复元素
+设置两个指针。
