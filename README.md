@@ -178,3 +178,8 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 110 Balanced Binary Tree
 判断是否是一棵平衡二叉树
 递归。
+
+2015.11.17
+111 Minimum Depth of Binary Tree
+求二叉树的最小深度
+递归，注意只有一棵子树的情况。
