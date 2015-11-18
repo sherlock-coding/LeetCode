@@ -193,3 +193,7 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 118 Pascal's Triangle
 杨辉三角。
 
+2015.11.19
+119 Pascla's Triangle II
+杨辉三角
+获得指定行。可只使用一个数组节省空间。
