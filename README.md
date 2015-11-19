@@ -218,3 +218,8 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 165 Compare Version Numbers
 比较版本号
 将版本号根据'.'分割成多个整数逐一比较
+
+2015.11.19 
+168 Excel Sheet Column Number
+数字到Excel列标题的转换
+处理时，将数字n减一进行处理，这样可以从0开始，而不是从1开始。
