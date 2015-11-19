@@ -213,3 +213,8 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 160 Intersection of Tow Linked Lists
 两个链表的交叉点
 计算链表长度，根据长度差移动节点到相同长度的位置，逐一进行比较。
+
+2015.11.19
+165 Compare Version Numbers
+比较版本号
+将版本号根据'.'分割成多个整数逐一比较
