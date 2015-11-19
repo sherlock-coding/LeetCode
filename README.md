@@ -228,3 +228,7 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 169 Majority Element
 次数出现大于【n/2】的数
 先统计出现次数，最后得出出现最多的数。
+
+2015.11.19
+171 Excel Sheet Column Number
+题目的168的相反操作
