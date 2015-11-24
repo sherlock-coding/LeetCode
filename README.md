@@ -269,3 +269,9 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 203 Remove Linked List Elements
 删除链表指定元素
 逐一判断。
+
+2015.11.24
+204 Count Primes
+计算素数的数目
+计算小于n的素数的数目。
+Sieve of Eratosthenes。 
