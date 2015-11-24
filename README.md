@@ -295,3 +295,9 @@ Sieve of Eratosthenes。
 219 Contains Duplicate II
 包含重复
 判断属猪是否包含相距一定距离内的重复元素。
+
+2015.11.24
+223 Rectangle Area
+矩形包含的面积。
+计算矩形覆盖的面积。
+总面积减去重复的面积。
