@@ -285,3 +285,8 @@ Sieve of Eratosthenes。
 206 Reverse Linked List
 翻转链表
 逐一翻转，递归或迭代。
+
+2015.11.24
+217 Contains Duplicate
+包含重复
+判断数组中是否有重复元素。
