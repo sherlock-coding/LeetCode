@@ -275,3 +275,8 @@ dp[i]表示ｎ阶楼梯的不同方法数，则dp[i] = dp[i-1] + dp[i-2]
 计算素数的数目
 计算小于n的素数的数目。
 Sieve of Eratosthenes。 
+
+2015.11.24
+205 Isomorphic Strings
+同构字符串
+注意两个字符不能映射到同一个字符。
