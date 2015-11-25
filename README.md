@@ -342,3 +342,8 @@ Sieve of Eratosthenes。
 237 Delte Node in a Linked List
 删除链表中指定的节点（除了尾节点）。
 将该节点后的节点的内容复制到该节点，删除后一个节点。
+
+2015.11.25
+242 Valid Anagram
+变位词
+hashtable
