@@ -326,3 +326,9 @@ Sieve of Eratosthenes。
 232 Implement Queue using Stacks
 利用栈实现队列。
 使用两个堆栈。一个用来push，一个用来pop。
+
+2015.11.25
+234 Palindrome Linked List
+回文链表
+判断单链表是否时回文。
+利用两个指针找到中点，就地将后半段翻转，然后前后半段进行比较。
