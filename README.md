@@ -337,3 +337,8 @@ Sieve of Eratosthenes。
 235 Lowest Common Ancestor of a Binary Search Tree
 二叉查找树的最近公共祖先
 利用BST的性质，递归或迭代。
+
+2015.11.25
+237 Delte Node in a Linked List
+删除链表中指定的节点（除了尾节点）。
+将该节点后的节点的内容复制到该节点，删除后一个节点。
