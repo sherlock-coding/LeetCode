@@ -352,3 +352,8 @@ hashtable
 257 Binary Tree Paths
 二叉树的路径
 DFS
+
+2015.11.25
+258 Add Digits
+位相加
+result[num] = (num - 1) %  9 + 1 ----- num > 0
