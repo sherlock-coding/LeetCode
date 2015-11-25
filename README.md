@@ -321,3 +321,8 @@ Sieve of Eratosthenes。
 231 Power of Two
 判断一个数是否是2的幂。
 只需判断这个数的二进制形式中是否只有一个1。
+
+2015.11.25
+232 Implement Queue using Stacks
+利用栈实现队列。
+使用两个堆栈。一个用来push，一个用来pop。
