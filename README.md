@@ -384,3 +384,8 @@ hashtable
 2015.11.26
 299 Bulls and Cows
 hash table
+2015.11.26
+303 Range Sum Query - Immutable
+范围和查询。
+动态规划。dp[i];表示前i个元素的和。
+sumRange(i,j) = dp[j+1] - dp[i]
