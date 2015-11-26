@@ -357,3 +357,7 @@ DFS
 258 Add Digits
 位相加
 result[num] = (num - 1) %  9 + 1 ----- num > 0
+
+2015.11.26
+263 Ugly Number
+判断一个正整数的质因子是否只有2,3,5
