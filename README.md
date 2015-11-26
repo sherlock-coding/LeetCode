@@ -376,3 +376,7 @@ result[num] = (num - 1) %  9 + 1 ----- num > 0
 290 Word Pattern
 单词模式
 hashtable
+
+2015.11.26
+292 Nim Game
+1-3：先手胜， 4：先手负，5-7,：转化为4，后手负，。。。
