@@ -361,3 +361,8 @@ result[num] = (num - 1) %  9 + 1 ----- num > 0
 2015.11.26
 263 Ugly Number
 判断一个正整数的质因子是否只有2,3,5
+
+2015.11.26
+278 First Bad Version
+二分查找。
+注意，mid = (start + end) / 2; 与 mid = start + (end - start) / 2;的区别。前者可能导致溢出。
