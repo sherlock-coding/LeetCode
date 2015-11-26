@@ -371,3 +371,8 @@ result[num] = (num - 1) %  9 + 1 ----- num > 0
 283 Move Zeroes
 将数组中的0移至末尾。
 设置两个指针，分别指向新的数组和已经查找到的位置。
+
+2015.11.26
+290 Word Pattern
+单词模式
+hashtable
