@@ -366,3 +366,8 @@ result[num] = (num - 1) %  9 + 1 ----- num > 0
 278 First Bad Version
 二分查找。
 注意，mid = (start + end) / 2; 与 mid = start + (end - start) / 2;的区别。前者可能导致溢出。
+
+2015.11.26
+283 Move Zeroes
+将数组中的0移动末尾。
+设置两个指针，分别指向新的数组和已经查找到的位置。
