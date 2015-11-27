@@ -384,8 +384,14 @@ hashtable
 2015.11.26
 299 Bulls and Cows
 hash table
+
 2015.11.26
 303 Range Sum Query - Immutable
 范围和查询。
 动态规划。dp[i];表示前i个元素的和。
 sumRange(i,j) = dp[j+1] - dp[i]
+
+2015.11.27
+13 Roman to Integer
+罗马数字转为阿拉伯数。
+遍历给定String s中的字符，在总数中加上每个字符代表的数字，如果字符比上一个字符所代表的数字大，则在总数中减去两倍的上一个字符所代表的数字。
