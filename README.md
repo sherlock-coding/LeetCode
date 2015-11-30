@@ -423,3 +423,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 2015.11.30 
 1 2Sum
 利用hash map , O(n)
+
+2015.11.30
+22 Generate Parentheses
+产生n个括号对的合法的排列。
+回溯。
