@@ -419,3 +419,7 @@ sumRange(i,j) = dp[j+1] - dp[i]
 2015.11.30
 18 4Sum
 利用3Sum求解。
+
+2015.11.30 
+1 2Sum
+利用hash map , O(n)
