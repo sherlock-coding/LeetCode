@@ -410,3 +410,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 16 3Sum Closest
 最接近target的三个数的和。
 排序后，转化为2Sum的问题。
+
+2015.11.30
+17 Letter Combinations of a Phone Number
+电话号码的字母组合
+回溯
