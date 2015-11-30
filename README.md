@@ -428,3 +428,7 @@ sumRange(i,j) = dp[j+1] - dp[i]
 22 Generate Parentheses
 产生n个括号对的合法的排列。
 回溯。
+
+2015.11.30
+24 Swap Nodes in Pairs
+交换相邻的节点对。
