@@ -457,3 +457,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 35 Search Insert Position
 在有序数组中查找目标值的位置。
 二分查找
+
+2015.12.2
+39 Combination Sum
+找出所有和为target的数的组合。
+回溯。
