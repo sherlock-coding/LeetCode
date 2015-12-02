@@ -462,3 +462,9 @@ sumRange(i,j) = dp[j+1] - dp[i]
 39 Combination Sum
 找出所有和为target的数的组合。
 回溯。
+
+2015.12.2
+40 Combination Sum
+每个数最多用一次。
+回溯
+注意，剔除重复的解。
