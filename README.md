@@ -452,3 +452,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 34 Search for a Range
 在有序数组中查找一个值的范围。
 二分查找
+
+2015.12.2
+35 Search Insert Position
+在有序数组中查找目标值的位置。
+二分查找
