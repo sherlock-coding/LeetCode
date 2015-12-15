@@ -468,3 +468,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 每个数最多用一次。
 回溯
 注意，剔除重复的解。
+
+2015.12.15
+46 Permutations
+全排列
+回溯或利用stl中next_permutation算法
