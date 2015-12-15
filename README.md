@@ -473,3 +473,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 46 Permutations
 全排列
 回溯或利用stl中next_permutation算法
+
+2015.12.15
+47 Permuatations II
+不重复的全排列
+回溯时去除重复的选择
