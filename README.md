@@ -488,3 +488,8 @@ sumRange(i,j) = dp[j+1] - dp[i]
 49 Group Anagrams
 变位词分组
 hash
+
+2015.12.16 
+50 Pow(x,n)
+实现幂运算
+二分法或以2为基处理
