@@ -521,3 +521,8 @@ hash
 62 Unique Paths
 路径数
 动态规划 ： dp[i][j] = dp[i-1][j] + dp[i][j-1]
+
+2015.12.21
+63 Unique Paths II
+有障碍的路径数
+动态规划，障碍点dp[i][j]设为0
