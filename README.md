@@ -541,3 +541,9 @@ hash
 73 Set Matrix Zeroes
 矩阵填0
 注意空间的优化。
+
+2015.12.22
+74 Search a 2D Matrix
+矩阵查找
+二分查找
+
