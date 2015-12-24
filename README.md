@@ -574,3 +574,8 @@ hash
 80 Remove Duplicates from Sorted Array II
 去除超过指定数量的重复
 两个指针
+
+2015.12.24
+33 Search in Rotated Sorted Array
+在翻转的有序数组中查找。
+二分查找。在每次mid和target不相等时，需要添加额外的判断。判断target位于左半部分还是右半部分，以及mid位于左半部分还是右半部分。
